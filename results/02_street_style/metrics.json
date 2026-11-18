@@ -1,0 +1,97 @@
+{
+  "width": 800,
+  "height": 1200,
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "detection_weights": "COCO_V1",
+  "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+  "threshold": 0.5,
+  "alpha": 0.45,
+  "detections": [
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.998936,
+      "box": [
+        413.5,
+        268.92,
+        799,
+        1199
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.993277,
+      "box": [
+        44.95,
+        81.0,
+        287.54,
+        755.95
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.977108,
+      "box": [
+        434.73,
+        62.9,
+        649.89,
+        412.74
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.748949,
+      "box": [
+        394.38,
+        298.26,
+        433.38,
+        439.59
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.705631,
+      "box": [
+        392.75,
+        299.63,
+        466.57,
+        464.72
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.629173,
+      "box": [
+        421.65,
+        116.92,
+        704.86,
+        937.05
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.600243,
+      "box": [
+        342.25,
+        302.35,
+        412.08,
+        524.78
+      ]
+    }
+  ],
+  "person_area_ratio": 0.312979,
+  "detection_seconds": 4.9006,
+  "segmentation_seconds": 5.3279,
+  "inference_seconds": 10.2285,
+  "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+  "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+  "source_file": "02_street_style.jpg"
+}

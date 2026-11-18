@@ -1,0 +1,97 @@
+{
+  "width": 753,
+  "height": 1200,
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "detection_weights": "COCO_V1",
+  "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+  "threshold": 0.5,
+  "alpha": 0.45,
+  "detections": [
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.997547,
+      "box": [
+        3.54,
+        132.71,
+        245.4,
+        926.57
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.992707,
+      "box": [
+        234.17,
+        96.57,
+        583.57,
+        1155.62
+      ]
+    },
+    {
+      "category": "suitcase",
+      "category_zh": "行李箱",
+      "score": 0.721334,
+      "box": [
+        216.88,
+        600.78,
+        374.38,
+        806.48
+      ]
+    },
+    {
+      "category": "handbag",
+      "category_zh": "手提包",
+      "score": 0.704045,
+      "box": [
+        235.98,
+        334.57,
+        442.15,
+        815.38
+      ]
+    },
+    {
+      "category": "suitcase",
+      "category_zh": "行李箱",
+      "score": 0.655779,
+      "box": [
+        191.38,
+        584.81,
+        468.27,
+        898.68
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.638413,
+      "box": [
+        148.67,
+        254.26,
+        246.32,
+        683.09
+      ]
+    },
+    {
+      "category": "suitcase",
+      "category_zh": "行李箱",
+      "score": 0.587901,
+      "box": [
+        225.27,
+        723.72,
+        334.55,
+        826.45
+      ]
+    }
+  ],
+  "person_area_ratio": 0.364944,
+  "detection_seconds": 4.836,
+  "segmentation_seconds": 5.5394,
+  "inference_seconds": 10.3754,
+  "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+  "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+  "source_file": "03_street_scene.jpg"
+}

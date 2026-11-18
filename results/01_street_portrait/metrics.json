@@ -1,0 +1,42 @@
+{
+  "width": 800,
+  "height": 1200,
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "detection_weights": "COCO_V1",
+  "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+  "threshold": 0.5,
+  "alpha": 0.45,
+  "detections": [
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.998495,
+      "box": [
+        46.69,
+        157.86,
+        687.37,
+        1167.99
+      ]
+    },
+    {
+      "category": "tie",
+      "category_zh": "领带",
+      "score": 0.77863,
+      "box": [
+        365.14,
+        362.38,
+        552.04,
+        838.35
+      ]
+    }
+  ],
+  "person_area_ratio": 0.379568,
+  "detection_seconds": 4.5058,
+  "segmentation_seconds": 5.0254,
+  "inference_seconds": 9.5312,
+  "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+  "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+  "source_file": "01_street_portrait.jpg"
+}

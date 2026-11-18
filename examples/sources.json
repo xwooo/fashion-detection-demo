@@ -1,0 +1,52 @@
+[
+  {
+    "file": "01_street_portrait.jpg",
+    "title": "Street fashion (27305297617).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Street_fashion_(27305297617).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Street_fashion_%2827305297617%29.jpg/960px-Street_fashion_%2827305297617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Anastasia Pavlenko from  Saint Petersburg, Russia",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Resized to at most 1200 pixels on the longest edge and re-encoded as JPEG. Result images additionally contain predicted boxes and person masks."
+  },
+  {
+    "file": "02_street_style.jpg",
+    "title": "Street fashion (14029430420).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Street_fashion_(14029430420).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Street_fashion_%2814029430420%29.jpg/960px-Street_fashion_%2814029430420%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Giuseppe Milo from Lisbon, Portugal",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Resized to at most 1200 pixels on the longest edge and re-encoded as JPEG. Result images additionally contain predicted boxes and person masks."
+  },
+  {
+    "file": "03_street_scene.jpg",
+    "title": "Street fashion (15758256296).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Street_fashion_(15758256296).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Street_fashion_%2815758256296%29.jpg/960px-Street_fashion_%2815758256296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "pedro alves from S. Domingos de Rana, Portugal",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Resized to at most 1200 pixels on the longest edge and re-encoded as JPEG. Result images additionally contain predicted boxes and person masks."
+  },
+  {
+    "file": "04_street_group.jpg",
+    "title": "02024 0843 Street fashion.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:02024_0843_Street_fashion.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/02024_0843_Street_fashion.jpg/960px-02024_0843_Street_fashion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Silar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized to at most 1200 pixels on the longest edge and re-encoded as JPEG. Result images additionally contain predicted boxes and person masks."
+  },
+  {
+    "file": "05_vintage_fashion.jpg",
+    "title": "Street fashion, Sydney 1945 SLNSW FL692463.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Street_fashion,_Sydney_1945_SLNSW_FL692463.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Street_fashion%2C_Sydney_1945_SLNSW_FL692463.jpg/960px-Street_fashion%2C_Sydney_1945_SLNSW_FL692463.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Norman Herfort",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "changes": "Resized to at most 1200 pixels on the longest edge and re-encoded as JPEG. Result images additionally contain predicted boxes and person masks."
+  }
+]

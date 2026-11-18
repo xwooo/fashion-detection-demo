@@ -1,0 +1,9 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.idea/
+.build/
+*.log
+deliverables/*.zip
+时尚智能：理论、技术及应用..pptx

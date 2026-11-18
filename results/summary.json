@@ -1,0 +1,501 @@
+{
+  "results": [
+    {
+      "width": 800,
+      "height": 1200,
+      "device": "cpu",
+      "torch_version": "2.15.0+cpu",
+      "torchvision_version": "0.29.2+cpu",
+      "detection_weights": "COCO_V1",
+      "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+      "threshold": 0.5,
+      "alpha": 0.45,
+      "detections": [
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.998495,
+          "box": [
+            46.69,
+            157.86,
+            687.37,
+            1167.99
+          ]
+        },
+        {
+          "category": "tie",
+          "category_zh": "领带",
+          "score": 0.77863,
+          "box": [
+            365.14,
+            362.38,
+            552.04,
+            838.35
+          ]
+        }
+      ],
+      "person_area_ratio": 0.379568,
+      "detection_seconds": 4.5058,
+      "segmentation_seconds": 5.0254,
+      "inference_seconds": 9.5312,
+      "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+      "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+      "source_file": "01_street_portrait.jpg"
+    },
+    {
+      "width": 800,
+      "height": 1200,
+      "device": "cpu",
+      "torch_version": "2.15.0+cpu",
+      "torchvision_version": "0.29.2+cpu",
+      "detection_weights": "COCO_V1",
+      "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+      "threshold": 0.5,
+      "alpha": 0.45,
+      "detections": [
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.998936,
+          "box": [
+            413.5,
+            268.92,
+            799,
+            1199
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.993277,
+          "box": [
+            44.95,
+            81.0,
+            287.54,
+            755.95
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.977108,
+          "box": [
+            434.73,
+            62.9,
+            649.89,
+            412.74
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.748949,
+          "box": [
+            394.38,
+            298.26,
+            433.38,
+            439.59
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.705631,
+          "box": [
+            392.75,
+            299.63,
+            466.57,
+            464.72
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.629173,
+          "box": [
+            421.65,
+            116.92,
+            704.86,
+            937.05
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.600243,
+          "box": [
+            342.25,
+            302.35,
+            412.08,
+            524.78
+          ]
+        }
+      ],
+      "person_area_ratio": 0.312979,
+      "detection_seconds": 4.9006,
+      "segmentation_seconds": 5.3279,
+      "inference_seconds": 10.2285,
+      "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+      "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+      "source_file": "02_street_style.jpg"
+    },
+    {
+      "width": 753,
+      "height": 1200,
+      "device": "cpu",
+      "torch_version": "2.15.0+cpu",
+      "torchvision_version": "0.29.2+cpu",
+      "detection_weights": "COCO_V1",
+      "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+      "threshold": 0.5,
+      "alpha": 0.45,
+      "detections": [
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.997547,
+          "box": [
+            3.54,
+            132.71,
+            245.4,
+            926.57
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.992707,
+          "box": [
+            234.17,
+            96.57,
+            583.57,
+            1155.62
+          ]
+        },
+        {
+          "category": "suitcase",
+          "category_zh": "行李箱",
+          "score": 0.721334,
+          "box": [
+            216.88,
+            600.78,
+            374.38,
+            806.48
+          ]
+        },
+        {
+          "category": "handbag",
+          "category_zh": "手提包",
+          "score": 0.704045,
+          "box": [
+            235.98,
+            334.57,
+            442.15,
+            815.38
+          ]
+        },
+        {
+          "category": "suitcase",
+          "category_zh": "行李箱",
+          "score": 0.655779,
+          "box": [
+            191.38,
+            584.81,
+            468.27,
+            898.68
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.638413,
+          "box": [
+            148.67,
+            254.26,
+            246.32,
+            683.09
+          ]
+        },
+        {
+          "category": "suitcase",
+          "category_zh": "行李箱",
+          "score": 0.587901,
+          "box": [
+            225.27,
+            723.72,
+            334.55,
+            826.45
+          ]
+        }
+      ],
+      "person_area_ratio": 0.364944,
+      "detection_seconds": 4.836,
+      "segmentation_seconds": 5.5394,
+      "inference_seconds": 10.3754,
+      "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+      "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+      "source_file": "03_street_scene.jpg"
+    },
+    {
+      "width": 960,
+      "height": 636,
+      "device": "cpu",
+      "torch_version": "2.15.0+cpu",
+      "torchvision_version": "0.29.2+cpu",
+      "detection_weights": "COCO_V1",
+      "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+      "threshold": 0.5,
+      "alpha": 0.45,
+      "detections": [
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.999897,
+          "box": [
+            383.77,
+            196.38,
+            542.82,
+            623.3
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.999782,
+          "box": [
+            215.99,
+            222.76,
+            386.48,
+            629.76
+          ]
+        },
+        {
+          "category": "backpack",
+          "category_zh": "背包",
+          "score": 0.92837,
+          "box": [
+            237.95,
+            271.93,
+            333.85,
+            427.35
+          ]
+        }
+      ],
+      "person_area_ratio": 0.114724,
+      "detection_seconds": 4.4175,
+      "segmentation_seconds": 5.683,
+      "inference_seconds": 10.1005,
+      "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+      "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+      "source_file": "04_street_group.jpg"
+    },
+    {
+      "width": 902,
+      "height": 1200,
+      "device": "cpu",
+      "torch_version": "2.15.0+cpu",
+      "torchvision_version": "0.29.2+cpu",
+      "detection_weights": "COCO_V1",
+      "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+      "threshold": 0.5,
+      "alpha": 0.45,
+      "detections": [
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.999304,
+          "box": [
+            103.0,
+            316.71,
+            208.42,
+            576.1
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.999034,
+          "box": [
+            253.1,
+            242.24,
+            504.47,
+            1024.48
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.996477,
+          "box": [
+            473.71,
+            241.98,
+            616.59,
+            690.87
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.983414,
+          "box": [
+            590.76,
+            305.54,
+            667.23,
+            615.28
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.981365,
+          "box": [
+            22.25,
+            336.23,
+            88.18,
+            593.37
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.966806,
+          "box": [
+            251.71,
+            302.3,
+            296.51,
+            436.35
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.945782,
+          "box": [
+            410.44,
+            289.03,
+            474.13,
+            385.58
+          ]
+        },
+        {
+          "category": "tie",
+          "category_zh": "领带",
+          "score": 0.895339,
+          "box": [
+            541.86,
+            311.87,
+            556.06,
+            340.58
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.887308,
+          "box": [
+            64.93,
+            316.13,
+            113.41,
+            509.34
+          ]
+        },
+        {
+          "category": "handbag",
+          "category_zh": "手提包",
+          "score": 0.871861,
+          "box": [
+            181.88,
+            425.25,
+            207.65,
+            486.66
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.828085,
+          "box": [
+            184.38,
+            317.42,
+            207.76,
+            385.23
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.721198,
+          "box": [
+            41.63,
+            325.78,
+            104.0,
+            553.98
+          ]
+        },
+        {
+          "category": "handbag",
+          "category_zh": "手提包",
+          "score": 0.708672,
+          "box": [
+            175.43,
+            382.7,
+            207.54,
+            488.01
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.660512,
+          "box": [
+            164.49,
+            318.43,
+            188.71,
+            382.95
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.616594,
+          "box": [
+            32.65,
+            352.79,
+            78.65,
+            536.1
+          ]
+        },
+        {
+          "category": "person",
+          "category_zh": "人物",
+          "score": 0.548152,
+          "box": [
+            282.41,
+            339.8,
+            303.38,
+            406.37
+          ]
+        },
+        {
+          "category": "tie",
+          "category_zh": "领带",
+          "score": 0.517748,
+          "box": [
+            543.38,
+            324.58,
+            556.91,
+            348.42
+          ]
+        }
+      ],
+      "person_area_ratio": 0.164488,
+      "detection_seconds": 4.3511,
+      "segmentation_seconds": 5.0335,
+      "inference_seconds": 9.3846,
+      "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+      "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+      "source_file": "05_vintage_fashion.jpg"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,53 @@
+{
+  "width": 960,
+  "height": 636,
+  "device": "cpu",
+  "torch_version": "2.15.0+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "detection_weights": "COCO_V1",
+  "segmentation_weights": "COCO_WITH_VOC_LABELS_V1",
+  "threshold": 0.5,
+  "alpha": 0.45,
+  "detections": [
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.999897,
+      "box": [
+        383.77,
+        196.38,
+        542.82,
+        623.3
+      ]
+    },
+    {
+      "category": "person",
+      "category_zh": "人物",
+      "score": 0.999782,
+      "box": [
+        215.99,
+        222.76,
+        386.48,
+        629.76
+      ]
+    },
+    {
+      "category": "backpack",
+      "category_zh": "背包",
+      "score": 0.92837,
+      "box": [
+        237.95,
+        271.93,
+        333.85,
+        427.35
+      ]
+    }
+  ],
+  "person_area_ratio": 0.114724,
+  "detection_seconds": 4.4175,
+  "segmentation_seconds": 5.683,
+  "inference_seconds": 10.1005,
+  "timing_note": "单次测量，包含模型预处理，不含模型加载、可视化与文件保存。非严格性能基准。",
+  "limitation": "分割掩码表示人物区域，包含衣物、皮肤和头发，不区分上衣、裤子等服装类别。",
+  "source_file": "04_street_group.jpg"
+}
